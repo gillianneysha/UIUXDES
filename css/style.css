@@ -10,7 +10,8 @@
 }
 
 #pages .nav-link{
-    color:#A52A2A !important
+    color:#A52A2A !important;
+    font-family: 'Krub'
 }
 .navbar-text {
     font-size: 2vw; 
@@ -37,7 +38,20 @@ body{
     background-color: #FFEFD5;
 }
 
-
+.only-the-best{
+    color:#A52A2A !important;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35.412vw;
+    color: #1B1C1E;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
 
 .footer-container {
     padding: 20px;
@@ -56,3 +70,49 @@ body{
     z-index: 999; 
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jua';
+}
+
+body{
+    background-color: #D6D9C9 ;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+
+.card img {
+    filter: blur(1px); 
+    width: 100%; 
+    height:500px; 
+    object-fit: cover; 
+}
+
+.card{
+    position: relative;
+    width: auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white; 
+    width: 100%; 
+    font-family: 'Juaf';
+}
