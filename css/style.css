@@ -10,8 +10,7 @@
 }
 
 #pages .nav-link{
-    color:#A52A2A !important;
-    font-family: 'Krub'
+    color:#A52A2A !important
 }
 .navbar-text {
     font-size: 2vw; 
@@ -25,6 +24,12 @@
     
 }
 
+body{
+    margin:0;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+}
 
 
 #northLogin{
@@ -32,44 +37,17 @@
     background-color: #FFEFD5;
 }
 
-.only-the-best{
-    color:#A52A2A !important;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 35.412vw;
-    border-radius: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2vw;
-    font-weight: bold;
-}
 
- .book-our-services{
-    color: white !important;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 35.412vw;
-    border-radius: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5vw !important;
-    font-weight: lighter;
-    font-family: 'Krub' !important;
-}
 
-.footer-container .aesthetfooter {
+.footer-container {
     padding: 20px;
-    font-size: 10px !important;
+
     background-color: #E5E7DD;
     color: #1B1C1E;
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: -50px; 
     left: 0;
     width: 100%;
@@ -78,49 +56,111 @@
     z-index: 999; 
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Jua';
-}
-
-body{
-    background-color: #D6D9C9 ;
-}
-
-.card-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 250px;
-}
-
-
-.card img {
-    filter: blur(1px); 
-    width: 100%; 
-    height:500px; 
-    object-fit: cover; 
-}
-
-.card{
-    position: relative;
-    width: auto;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-}
-
-.card-content {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
+.center-textservices {
     text-align: center; 
-    color: white; 
-    width: 100%; 
-    font-family: 'Juaf';
-}
+    position: absolute; 
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Jua';
+    font-weight: 400;
+    font-size: 45px;
+    color: #A52A2A
+  }
+
+
+
+.container-6 {
+    box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #464742;
+    background: url('../assets/images/rectangle51.jpeg') 45% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 20px 230px 0;
+    width: 550px;
+    box-sizing: border-box;
+    margin-right: 1200px;
+    float: right;
+    float: top;
+    top: 280px;
+    align-items: flex-start;
+  }
+
+.shop {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow-wrap: break-word;
+    font-family: 'Jua';
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-top: 20px;
+margin-top: px;
+  }
+
+  .container-2 {
+    box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #464742;
+    background: url('../assets/images/rectangle53.jpeg') 45% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 20px 250px 0;
+    width: 550px;
+    box-sizing: border-box;
+    margin-right: 620px;
+    float: right;
+    float: top;
+    top: -225px;
+  }
+
+  .grooming {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow-wrap: break-word;
+    font-family: 'Jua';
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-top: px;
+  }
+
+  .container-9 {
+    box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #464742;
+    background: url('../assets/images/rectangle52.jpeg') 45% / cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 20px 250px 0;
+    width: 550px;
+    box-sizing: border-box;
+    margin-right: -1120px;
+    float: right;
+    float: top;
+    top: -225px;
+  }
+
+ .health-and-check-up {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Jua';
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+  }
+
+  .bodyservices{
+    background-color: #D6D9C9; 
+    color: #A52A2A; 
+  }
+  
+
