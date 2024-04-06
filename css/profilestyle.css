@@ -26,14 +26,135 @@
 }
 
 
-
 #northLogin{
     color: #A52A2A;
     background-color: #FFEFD5;
 }
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jua';
+}
 
+body{
+    background-color: #D6D9C9 ;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position:relative;
+    padding-bottom: 6.74rem;
+    box-sizing: inherit;
+}
+
+.container {
+max-width: 1500px;
+width: 100%;
+background: #E5E7DD;
+padding: 25px 30px;
+border-radius: 5px;
+overflow-y: auto;
+margin-top: 10%;
+margin-bottom: 5%;
+
+}
+
+.container .title{
+    font-size: 30px;
+    font-weight: 500;
+    position:relative;
+    text-align: center;
+    font-family: 'Jua';
+    text-transform: uppercase;
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.container .subtitle{
+    font-size: 15px;
+    font-weight: lighter;
+    position:relative;
+    text-align: center;
+    font-family: 'Krub';
+    color: white;
+    font-style: italic;
+    
+}
+
+
+
+.container form .pet-details{
+    color:#A52A2A;
+    font-family: 'Jua';
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .pet-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(50% - 20px);
+    
+}
+
+.pet-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.pet-details .input-box input{
+    height: 45px;
+    width: 100%;
+    border: none; 
+    background-color: #D6D9C9;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    color:#A52A2A;
+    margin-left: 5px;
+}
+.pet-details .input-box select{
+    height: 45px;
+    width: 100%;
+    border: none; 
+    background-color: #D6D9C9;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    color:#A52A2A;
+}
+.pet-details .input-box.medical-history {
+    width: calc(100% - 20px); /* Adjusted width to take up nearly full width with spacing */
+}
+
+.pet-details .input-box.medical-history input[type="text"] {
+    height:200px; /* Adjust the height of the input box */
+    width: 100%; /* Make the input box take full width */
+}
+
+
+.divider {
+    /* margin-left: 104px; */
+    top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+}
+
+.container [type="submit"]{
+    text-align: center;
+    width: 200px;
+    background-color: #FFEFD5;
+    color:#A52A2A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px; 
+    margin-left: 43%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}   
 
 .footer-container .aesthetfooter {
     padding: 20px;
@@ -43,27 +164,40 @@
 }
 
 .footer {
-    position: relative;
-    bottom: -50px; 
+    position: fixed; /* or "absolute" if you want it relative to the document */
     left: 0;
+    bottom: 0; /* Position at the bottom */
     width: 100%;
     background-color: #E5E7DD;
     color: #1B1C1E;
-    z-index: 999; 
+    z-index: 999;
+   
 }
 
-/* Until here */
 
-.pet-form{
-    color:#A52A2A !important;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 35.412vw;
-    border-radius: 10px;
-    text-transform: uppercase;
+
+.pet-profile{
+    font-family: 'Jua';
+    font-weight: normal;
+    font-size: 45px;
+    color:#A52A2A
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #A52A2A;
     text-align: center;
-    font-size: 2vw;
-    font-weight: bold;
+    margin-top: 20px; 
+    margin-left: 45%;
+}
+
+.circle img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+html{
+    height: 100%;
+    box-sizing: border-box
 }
