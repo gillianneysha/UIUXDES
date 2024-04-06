@@ -30,55 +30,96 @@
             </div>
         </nav>
         
-        <div class="pet-form">
-            <h1>Pet Profile Form</h1>
-        </div>
 
-       
+        <!-- <div class="fill-out">
+            Please fill out the profile so we can get to know your pet
+          </div>
+        
 
-        <footer class="footer fixed-bottom">
-            <div class="footer-container">
-                <div class="row">
-                    <!-- First Column -->
-                    <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-start text-l-start">
-                        <p class="lead mb-0 aesthetfooter">
-                            <strong>North </strong><br>
-                            north.staff@benilde.edu.ph <br>
-                            9/F The Atrium @ Benilde,,<br>
-                            DLS-CSB, 1040 Arellano Ave cor., <br>
-                            C. Ayala Street, Don Pedro St, <br>
-                            Manila City, Metro Manila
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-center text-l-center">
-                        <p class="lead mb-0 adastralogofooter"><img src="../UIUXDES/assets/NorthLogo.png" style="width: 100px; margin-top: 5%"></p> 
-                            <!-- <p class="lead mb-0 aesthetfooter"><br> -->
-                            <b>© North: Veterinary Clinic 2024</b>
-                        </p>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-end text-l-end">
-                        <p class="lead mb-4 aesthetfooter">
-                        <strong>Socials</strong><br>
-                        /northvet <a href="https://www.facebook.com/theadastra/" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/facebookLogo.png" style="width: 15px"></a><br>
-                        @northvet <a href="https://www.instagram.com/theadastra/" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/instagramLogo.png" style="width: 15px"></a> 
-                        <a href="https://twitter.com/theAdAstra" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/xLogo.png" style="width: 15px"></a>
-                        <a href="https://www.tiktok.com/@theadastra" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/tiktokLogo.png" style="width: 15px"></a><br>
-                        north.staff@benilde.edu.ph <img src="../UIUXDES/assets/mailLogo.png" style="width: 15px"> <br>
-                        </p>
-                    </div>
+          <div class="circle">
+            <img src="../UIUXDES/assets/PetPic.png" alt="Image of your pet">
+        </div> -->
+
+      <div class="container">
+        <div class="title">Pet Profile Form</div>
+        <div class="subtitle">Please fill out the profile form so we can get to know your pet</div>
+        
+        <div class="circle">
+            <img src="../UIUXDES/assets/PetPic.png" alt="Image of your pet">
+        </div> 
+        
+        <form action="#" >
+            <div class="pet-details">
+                
+                <div class="input-box">
+                    <span class="details" >Pet Name:</span>
+                    <input type="text" id="petname" required>
                 </div>
-            </div>
-        </footer>
+                <div class="input-box">
+                    <span class="details">Gender:</span>
+                    <select id="gender">
+                        <option>Female</option>
+                        <option>Male</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Birth Date:</span>
+                    <input type="date" id="birthday" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Breed:</span>
+                    <input type="text" id="breed" required>
+                </div>
+                <div class="divider"></div>
+                <div class="input-box medical-history">
+                    <span class="details">Medical History:</span>
+                    <input type="text" id="medical"required>
+                </div>
 
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+      </div>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-
         
     </body>   
+
+    <footer class="footer fixed-bottom">
+        <div class="footer-container">
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-start text-l-start">
+                    <p class="lead mb-0 aesthetfooter">
+                        <strong>North </strong><br>
+                        north.staff@benilde.edu.ph <br>
+                        9/F The Atrium @ Benilde,,<br>
+                        DLS-CSB, 1040 Arellano Ave cor., <br>
+                        C. Ayala Street, Don Pedro St, <br>
+                        Manila City, Metro Manila
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-center text-l-center">
+                    <p class="lead mb-0 adastralogofooter"><img src="../UIUXDES/assets/NorthLogo.png" style="width: 100px; margin-top: 5%"></p> 
+                        <!-- <p class="lead mb-0 aesthetfooter"><br> -->
+                        <b>© North: Veterinary Clinic 2024</b>
+                    </p>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-end text-l-end">
+                    <p class="lead mb-4 aesthetfooter">
+                    <strong>Socials</strong><br>
+                    /northvet <a href="https://www.facebook.com/theadastra/" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/facebookLogo.png" style="width: 15px"></a><br>
+                    @northvet <a href="https://www.instagram.com/theadastra/" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/instagramLogo.png" style="width: 15px"></a> 
+                    <a href="https://twitter.com/theAdAstra" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/xLogo.png" style="width: 15px"></a>
+                    <a href="https://www.tiktok.com/@theadastra" rel = "noreferrer noopener" target = "_blank"><img src="../UIUXDES/assets/tiktokLogo.png" style="width: 15px"></a><br>
+                    north.staff@benilde.edu.ph <img src="../UIUXDES/assets/mailLogo.png" style="width: 15px"> <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
 
-</body>
-</html>
