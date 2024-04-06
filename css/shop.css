@@ -1,31 +1,40 @@
-.nav-container {
-    display: flex;
-    justify-content: flex-end; /* Pushes the navbar to the right */
-  }
 #mainNav{
-    background-color: #E5E7DD;
-    width: 100%;
-    color: #A52A2A; 
-    padding: 5px 0; 
-    position: fixed;
-    top: 0;
-    right: 100;
-    z-index: 1000;
+  background-color: #E5E7DD;
+  width: 100%;
+  color: #A52A2A; 
+  padding: 10px 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 #pages .nav-link{
-    color:#A52A2A !important
+  color:#A52A2A !important;
+  font-family: 'Krub'
 }
 .navbar-text {
-    font-size: 2vw; 
-    margin-right: 50px; 
-    color: #F5F5F5;
-    font-weight: bold;
+  font-size: 2vw; 
+  margin-right: 50px; 
+  color: #F5F5F5;
+  font-weight: bold;
 }
 
 .navbar-brand{
-    margin-left: 100px;
-    
+  margin-left: 100px;
+  
+}
+
+#northLogin{
+  color: #A52A2A;
+  background-color: #FFEFD5;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Jua';
 }
 
 body{
@@ -36,30 +45,21 @@ body{
     background-color: #D6D9C9
 }
 
-
-
-#northLogin{
-    color: #A52A2A;
-    background-color: #FFEFD5;
-}
-
-
-
-.footer-container {
-    padding: 20px;
-
-    background-color: #E5E7DD;
-    color: #1B1C1E;
+.footer-container .aesthetfooter {
+  padding: 20px;
+  font-size: 10px !important;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
 }
 
 .footer {
-    position: fixed;
-    bottom: -50px; 
-    left: 0;
-    width: 100%;
-    background-color: #E5E7DD;
-    color: #1B1C1E;
-    z-index: 999; 
+  position: relative;
+  bottom: -50px; 
+  left: 0;
+  width: 100%;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
+  z-index: 999; 
 }
 
   .center-textshop {
