@@ -1,34 +1,47 @@
-#mainNav{
+#mainNav {
     background-color: #E5E7DD;
     width: 100%;
-    color: #A52A2A; 
-    padding: 10px 0; 
+    color: #A52A2A;
+    padding: 10px 20px; /* Adjust padding */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
 }
 
-#pages .nav-link{
-    color:#A52A2A !important;
-    font-family: 'Krub'
+#pages .nav-link {
+    color: #A52A2A !important;
+    font-family: 'Krub';
 }
+
 .navbar-text {
-    font-size: 2vw; 
-    margin-right: 50px; 
+    font-size: 2vw;
+    margin-right: 5%; /* Adjust margin */
     color: #F5F5F5;
     font-weight: bold;
 }
 
-.navbar-brand{
-    margin-left: 100px;
-    
+.navbar-brand {
+    margin-left: 5%; /* Adjust margin */
 }
 
-#northLogin{
+#northLogin {
     color: #A52A2A;
     background-color: #FFEFD5;
 }
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar-text {
+        font-size: 4vw; /* Adjust font size */
+        margin-right: 2%; /* Adjust margin */
+    }
+
+    .navbar-brand {
+        margin-left: 2%; /* Adjust margin */
+    }
+}
+
 
 h1 {
     font-size: 2em;
