@@ -218,6 +218,7 @@ body{
     padding: 5.2px 0 4.9px 8px; 
     width: 458px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .login-btn {
@@ -226,6 +227,7 @@ body{
     font-weight: bold;
     font-size: 20px;
     color: #A52A2A; 
+    text-decoration: none;
 }
 
 .dont-have-an-account-register-here {
