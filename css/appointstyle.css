@@ -1,0 +1,208 @@
+#mainNav{
+    background-color: #E5E7DD;
+    width: 100%;
+    color: #A52A2A; 
+    padding: 10px 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+ #pages .nav-link{
+    color:#A52A2A !important;
+    font-family: 'Krub'
+}
+.navbar-text {
+    font-size: 2vw; 
+    margin-right: 50px; 
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    
+}
+
+
+
+#northLogin{
+    color: #A52A2A;
+    background-color: #FFEFD5;
+}
+
+.columns-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    justify-content: flex-start; /* Distribute columns evenly */
+    max-width: 800px; /* Set a maximum width for the columns container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Reduce margin between columns */
+.column-1:last-child,
+.column-2:last-child,
+.column-3:last-child,
+.column-4:last-child {
+    margin-right: 0;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+    flex: 1 1 calc(30% - 10px); /* Each column takes up 30% of the container width with space for margins */
+    margin-right: 20px; /* Add some space between columns */
+}
+.radio-column {
+    flex: 1; /* Each radio column takes up equal space */
+    margin-right: 5px; /* Add some space between columns */
+}
+.radio-column input[type="radio"] {
+    -webkit-appearance: none; /* Remove default styles */
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; /* Adjust size of the radio button */
+    height: 20px;
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #A52A2A; /* Set border color */
+    outline: none; /* Remove outline */
+    margin-right: 5px; /* Add space between radio button and label */
+}
+
+.radio-column input[type="radio"]:checked {
+    background-color: #A52A2A; /* Set background color when checked */
+}
+.radio-column label {
+    display: inline-block;
+    margin-bottom: 5px; /* Add space between radio buttons */
+    border: 1px solid #ccc; /* Add border around each radio button label */
+    padding: 5px; /* Add padding to create space inside the border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #D6D9C9;
+    width: 200px;
+    text-align: center;
+    color:#A52A2A
+}
+
+
+.container [type="submit"]{
+    text-align: center;
+    width: 200px;
+    background-color: #FFEFD5;
+    color:#A52A2A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px; 
+    margin-left: 40%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+}  
+
+.input-box .serviceType{
+    color:#A52A2A
+}
+.input-box select{
+    height: 45px;
+    width: 80%;
+    border: none; 
+    background-color: #D6D9C9;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    color:#A52A2A;
+}
+
+.input-box.pet-condi {
+    width: calc(100% - 20px); /* Adjusted width to take up nearly full width with spacing */
+    color:#A52A2A
+}
+
+.dateAppoint {
+    color:#A52A2A
+}
+
+.input-box.dateAppoint input[type="date"]{
+    height:45px; /* Adjust the height of the input box */
+    width: 100%; /* Make the input box take full width */
+    color:#A52A2A;
+    border: none; 
+    background-color: #D6D9C9;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+ .input-box.pet-condi input[type="text"] {
+    height:200px; /* Adjust the height of the input box */
+    width: 100%; /* Make the input box take full width */
+    color:#A52A2A;
+    border: none; 
+    background-color: #D6D9C9;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Add space between radio buttons */
+}
+.column2 {
+    flex: 1 1 35%; /* Column 2 takes up 35% of the container width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Additional styles for title and subtitle */
+.container .title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Jua';
+    text-transform: uppercase;
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.container .subtitle {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Krub';
+    color: white;
+    font-style: italic;
+}
+.container .subtitle2 {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Jua';
+    color: #A52A2A;
+
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background: #E5E7DD;
+    padding: 25px 30px;
+    border-radius: 5px;
+    overflow-y: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jua';
+}
+
+body{
+    background-color: #D6D9C9 ;
+}
+
+
+
+
+
+
+
