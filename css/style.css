@@ -55,21 +55,21 @@ body{
     background-color: #FFEFD5;
 }
 
-.footer-container {
-    padding: 20px;
-
-    background-color: #E5E7DD;
-    color: #1B1C1E;
+.footer-container .aesthetfooter {
+  padding: 20px;
+  font-size: 10px !important;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
 }
 
 .footer {
-    position: fixed;
-    bottom: -50px; 
-    left: 0;
-    width: 100%;
-    background-color: #E5E7DD;
-    color: #1B1C1E;
-    z-index: 999; 
+  position: relative;
+  bottom: -50px; 
+  left: 0;
+  width: 100%;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
+  z-index: 999; 
 }
 
 .center-textshop {

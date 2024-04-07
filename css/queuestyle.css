@@ -55,15 +55,15 @@ body{
 }
 
 .footer-container .aesthetfooter {
-    padding: 0; /* Remove padding */
-    font-size: 20px !important;
+    padding: 20px;
+    font-size: 10px !important;
     background-color: #E5E7DD;
     color: #1B1C1E;
 }
 
 .footer {
-    position: fixed; /* Change to fixed position */
-    bottom: -50px; /* Place at the bottom */
+    position: relative;
+    bottom: -50px; 
     left: 0;
     width: 100%;
     background-color: #E5E7DD;
