@@ -74,18 +74,18 @@
 .footer-container .aesthetfooter {
   padding: 20px;
   font-size: 10px !important;
-  background-color: #e5e7dd;
-  color: #1b1c1e;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
 }
 
 .footer {
   position: relative;
-  bottom: -50px;
+  bottom: -50px; 
   left: 0;
   width: 100%;
-  background-color: #e5e7dd;
-  color: #1b1c1e;
-  z-index: 999;
+  background-color: #E5E7DD;
+  color: #1B1C1E;
+  z-index: 999; 
 }
 
 .view-appointments .pet-name {
@@ -485,3 +485,4 @@
 body, html {
   overflow-x: hidden;
 }
+

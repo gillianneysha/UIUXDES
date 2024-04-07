@@ -164,17 +164,14 @@ form .pet-details .input-box{
 }
 
 .footer {
-    position: fixed; /* or "absolute" if you want it relative to the document */
+    position: relative;
+    bottom: -50px; 
     left: 0;
-    bottom: 0; /* Position at the bottom */
     width: 100%;
     background-color: #E5E7DD;
     color: #1B1C1E;
-    z-index: 999;
-   
+    z-index: 999; 
 }
-
-
 
 .pet-profile{
     font-family: 'Jua';
