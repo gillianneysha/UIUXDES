@@ -10,35 +10,33 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jua:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/profilestyle.css" rel="stylesheet" />
 </head>
 <body>    
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar" id="mainNav">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <a href="landing.html" class="navbar-brand">
-                    <img src="../UIUXDES/assets/NorthLogo.png" class="d-inline-block align-top" alt="">
-                </a>
-                <ul class="navbar-nav ms-auto d-flex flex-row" id="pages"> <!-- Add d-flex and flex-row classes here -->
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Book an Appointment</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="secondservices.html">Services</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="whoweare.html">Who we are</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Contact Us</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="login.html" id="northLogin">Login</a></li>
-                </ul>
+    <header>
+        <div class="navbar">
+            <div class="lo"><a href="landing.html"><img src="../UIUXDES/assets/NorthLogo.png" class="d-inline-block align-top" alt=""></a></div>
+            <ul class="links">
+                <li><a href="appointment.html">Book an Appointment</a></li>
+                <li><a href="secondservices.html">Services</a></li>
+                <li><a href="whoweare.html">Who We Are</a></li>
+                <li><a href="contact">Contact Us</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Login</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </nav>
-        
 
-        <!-- <div class="fill-out">
-            Please fill out the profile so we can get to know your pet
-          </div>
-        
-
-          <div class="circle">
-            <img src="../UIUXDES/assets/PetPic.png" alt="Image of your pet">
-        </div> -->
+            <div class="dropdown_menu ">
+                <li><a href="appointment.html">Book an Appointment</a></li>
+                <li><a href="secondservices.html">Services</a></li>
+                <li><a href="whoweare.html">Who We Are</a></li>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="login.html" class="btn_login">Login</a></li>
+            </div>
+        </div>
+    </header>
 
       <div class="container">
         <div class="title">Pet Profile Form</div>
@@ -80,13 +78,7 @@
             </div>
         </form>
       </div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        
-    </body>   
-
-    <footer class="footer fixed-bottom">
+      <footer class="footer fixed-bottom">
         <div class="footer-container">
             <div class="row">
                 <!-- First Column -->
@@ -94,7 +86,7 @@
                     <p class="lead mb-0 aesthetfooter">
                         <strong>North </strong><br>
                         north.staff@benilde.edu.ph <br>
-                        9/F The Atrium @ Benilde,,<br>
+                        9/F The Atrium @ Benilde,<br>
                         DLS-CSB, 1040 Arellano Ave cor., <br>
                         C. Ayala Street, Don Pedro St, <br>
                         Manila City, Metro Manila
@@ -102,8 +94,8 @@
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0 text-center text-sm-center text-md-center text-lg-center text-l-center">
-                    <p class="lead mb-0 adastralogofooter"><img src="../UIUXDES/assets/NorthLogo.png" style="width: 100px; margin-top: 5%"></p> 
-                        <!-- <p class="lead mb-0 aesthetfooter"><br> -->
+                    <p class="lead mb-0 adastralogofooter"><img src="../UIUXDES/assets/NorthLogo.png" style="width: 200px"></p> 
+                        <p class="lead mb-0 aesthetfooter"><br>
                         <b>© North: Veterinary Clinic 2024</b>
                     </p>
                 </div>
@@ -121,5 +113,24 @@
             </div>
         </div>
     </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn');
+            const toggleBtnIcon = document.querySelector('.toggle_btn i');
+            const dropDownMenu = document.querySelector('.dropdown_menu');
+        
+            toggleBtn.onclick = function() {
+                dropDownMenu.classList.toggle('open');
+                const isOpen = dropDownMenu.classList.contains('open');
+        
+                toggleBtnIcon.className = isOpen ?
+                    'fa-solid fa-xmark' :
+                    'fa-solid fa-bars';
+            };
+        </script>
+
+</body>
 </html>
 
