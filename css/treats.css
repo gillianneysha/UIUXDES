@@ -8,9 +8,10 @@
 }
 
 body{
-  height: 100vh;
+
   background-color: #D6D9C9;
   overflow-x:hidden;
+  height: 100vh;
 }
 
 .lo{
@@ -163,8 +164,7 @@ header{
 
 .footer {
   position: relative;
-  bottom: -20px; 
-  left: 0;
+   left: 0;
   width: 100%;
   background-color: #E5E7DD;
   z-index: 999; 
@@ -179,7 +179,7 @@ header{
   position: relative;
 }
 
-.checkout-button {
+ .checkout-button {
 
     position: relative;
     background-color: #FFEFD5; 
@@ -190,16 +190,16 @@ header{
     font-size: 16px;          
     cursor: pointer;          
     text-decoration: none;    
-    left: 1500px;
-    bottom: -425px;
+    left: 71%;
+    bottom: -27%;
     z-index: 2;
     
-}
+} 
 
-.checkout-button:hover {
+  .checkout-button:hover {
     background-color: #1B1C1E 
-}
-.container-3 {
+} 
+ .container-3 {
     border-radius: 15px;
     background: #E5E7DD;
     position: relative;
@@ -210,8 +210,8 @@ header{
     width: 200px;
     height: 250px;
     box-sizing: border-box;
-    top: -800px;
-    left: 1200px;
+    bottom: 93%;
+    left: 55%;
     font-family: 'Jua';
     color: #A52A2A
     
@@ -245,10 +245,11 @@ header{
     margin-bottom: 20px;
     width: 238px;
     height: 288px;
-    bottom: -220px;
-    right: -300px;
+    bottom: -40%;
     position: relative;
     z-index: 2;
+    left:15%;
+    top: 2%;
   }
 
     .your-cart-1 {
@@ -258,11 +259,11 @@ header{
     font-weight: 400;
     font-size: 25px;
     color: #A52A2A;
-    right: -300px;
-    top: 200px;
+    left: 15%;
     position: relative;
     z-index: 2;
   }
+  
     .rectangle-1155 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -271,10 +272,11 @@ header{
     width: 238px;
     height: 288px;
     position: relative;
-    top: -125px;
-    right: -600px;
+    left: 30%;
+    top: -32.5%;
     z-index: 2;
   }
+  
     .your-cart-2 {
     margin: 0 10.5px 0 8.5px;
     overflow-wrap: break-word;
@@ -283,23 +285,24 @@ header{
     font-size: 25px;
     color: #A52A2A;
     position: relative;
-    top: -145px;
-    right: -600px;
+    top: -34.5%;    
+    left: 30%;
     z-index: 2;
   }
-
+  
     .rectangle-1156 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background: url('../assets/images/rectangle1156.png') 50% / cover no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 238px;
     height: 288px;
     position: relative;
-    top: -470px;
-    right: -900px;
+    bottom: 67%;    
+    left: 45%;
     z-index: 2;
   }
+  
   .your-cart-3 {
     margin: 0 16.5px 0 17.5px;
     text-align: center;
@@ -309,21 +312,23 @@ header{
     font-size: 25px;
     color: #A52A2A;
     position: relative;
-    top: -2450px;
-    right: -900px;
+    bottom: 180%;
+    left: 45%;
     z-index: 2;
   }
+  
      .rectangle-76 {
     border-radius: 20px;
     background: url('../assets/images/treats2.png') 50% / cover no-repeat;
     margin-bottom: 47px;
     width: 114px;
     height: 114px;
-    left: -1400px;
-    top: -1130px;
+    right: 705%;
+    top: -517%;
     position: relative;
     z-index: 2;
   }
+
 
     .rectangle-70 {
     border-radius: 20px;
@@ -331,8 +336,8 @@ header{
     margin-bottom: 47px;
     width: 114px;
     height: 114px;
-    left: -1400px;
-    top: -1150px;
+    right: 705%;
+    top: -517%;
     position: relative;
     z-index: 2;
   }
@@ -342,8 +347,8 @@ header{
     background: url('../assets/images/accessories2.png') 50% / cover no-repeat;
     width: 114px;
     height: 114px;
-    left: -1400px;
-    top: -1340px;
+    right: 705%;
+    top: -517%;
     position: relative;
     z-index: 2;
   }
@@ -356,8 +361,8 @@ header{
     align-self: flex-start;
     width: 114px;
     height: 114px;
-    left: -1480px;
-    top: -1030px;
+    right: 750%;
+    top: -517%;
     position: relative;
     z-index: 2;
   }
@@ -370,8 +375,8 @@ header{
     align-self: flex-start;
     width: 114px;
     height: 114px;
-    left: -1480px;
-    top: -1160px;
+    right: 750%;
+    top: -507%;
     position: relative;
     z-index: 2;
   }
@@ -381,18 +386,17 @@ header{
     background: #E5E7DD;
     position: relative;
     margin-bottom: 16px;
-    display: flex;
     flex-direction: column;
     padding: 5px 17px 14px 10px;
     width: fit-content;
     box-sizing: border-box;
-    left: -1250px;
-    position: relative;
-    top: -350px;
+    top: -180%;
+    left: -620%;
     width: 1000px;
     height: 600px;
     
   }
+  
   .container-1215 {
     border-radius: 15px;
     background: #E5E7DD;
@@ -403,17 +407,18 @@ header{
     padding: 5px 17px 14px 10px;
     width: fit-content;
     box-sizing: border-box;
-    left: -1420px;
+    right: 730%;
     position: relative;
-    top: -965px;
+    bottom: 447%;
     width: 600px;
     height: 130px;
     
     }
+    
   .container-13{
     position: relative;
-    top: -970px;
+    top: -435%;
     right: -30px;
   }
   
-
+ */
