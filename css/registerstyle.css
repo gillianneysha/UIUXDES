@@ -1,58 +1,157 @@
-#mainNav {
-    background-color: #E5E7DD;
-    width: 100%;
-    color: #A52A2A;
-    padding: 10px 20px; /* Adjust padding */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
+/* NAVBAR CSS */
 
-#pages .nav-link {
-    color: #A52A2A !important;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Krub';
 }
 
-.navbar-text {
-    font-size: 2vw;
-    margin-right: 5%; /* Adjust margin */
-    color: #F5F5F5;
-    font-weight: bold;
-}
-
-.navbar-brand {
-    margin-left: 5%; /* Adjust margin */
-}
-
-#northLogin {
-    color: #A52A2A;
-    background-color: #FFEFD5;
-}
-
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-    .navbar-text {
-        font-size: 4vw; /* Adjust font size */
-        margin-right: 2%; /* Adjust margin */
-    }
-
-    .navbar-brand {
-        margin-left: 2%; /* Adjust margin */
-    }
-}
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Jua';
-}
-
 body{
-    background-color: #D6D9C9 ;
+    height: 100vh;
+    background-color: #D6D9C9;
+    overflow-x:hidden;
 }
+
+.lo{
+    margin-left: 5%;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: #A52A2A;
+    font-size: 1.10rem;
+}
+
+a:hover{
+    color:white
+}
+
+header{
+    position: relative;
+    /* padding: 0 2rem; */
+}
+
+.navbar{
+    width: 100%;
+    height:100px;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    background-color: #E5E7DD;
+}
+
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1%;
+}
+
+.navbar .toggle_btn{
+    color:#A52A2A;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 5%;
+}
+
+.action_btn{
+    background-color: #FFEFD5;
+    color:#A52A2A;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.10rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    margin-right: 5%;
+}
+
+.btn_login{
+    background-color: #FFEFD5;
+    color:#A52A2A;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.10rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    margin-right: 5%;
+}
+.action_btn:hover{
+    scale: 1.05;
+    color: white
+}
+
+.action_btn:active{
+    scale:0.95
+}
+
+.dropdown_menu{
+    display: none;
+    position:absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow:hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1000;
+    
+}
+
+.dropdown_menu.open{
+    height: 280px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 992px){
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display:block
+    }
+}
+
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+
+/* NAVBAR CSS */
 
 h1 {
     font-size: 2em;
@@ -100,24 +199,6 @@ h1 {
     font-weight: lighter;
     font-family: 'Krub' !important;
 }
-
-.footer-container .aesthetfooter {
-    padding: 20px;
-    font-size: 10px !important;
-    background-color: #E5E7DD;
-    color: #1B1C1E;
-}
-
-.footer {
-    position: relative;
-    bottom: -120px; 
-    left: 0;
-    width: 100%;
-    background-color: #E5E7DD;
-    color: #1B1C1E;
-    z-index: 999; 
-}
-
 
 .welcome-to-north-veterinary-clinic {
     margin-top: 140px;
@@ -332,26 +413,13 @@ h1 {
     opacity: 0.75;
     background: #D9D9D9;
     position: absolute;
-    top: 120px;
+    top: 100px;
     right: -2px;
-    width: 1442px;
+    width: 2000px;
     height: 800px;
     z-index: 2;
 }
 
-/*.register-container {
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
-    border-radius: 10px;
-    background-color: #D6D9C9;
-    position: absolute;
-    left: 340px;
-    top: 125px;
-    display: flex;
-    flex-direction: column;
-    padding: 31px 0 16px 0;
-    box-sizing: border-box;
-    z-index: 2;
-}*/
 
 .divider {
     margin-left: 0px;
@@ -577,7 +645,7 @@ h1 {
     margin: 3px 25px 3px 25px;
     display: inline-block;
     align-self: self-start;
-    word-wrap: break-word; /* Changed from break-words to word-wrap */
+    word-wrap: break-word; 
     font-family: 'Krub';
     font-weight: normal;
     font-size: 13px;
@@ -588,7 +656,7 @@ h1 {
     margin: 3px 25px 3px 25px;
     display: inline-block;
     align-self: self-start;
-    word-wrap: break-word; /* Changed from break-words to word-wrap */
+    word-wrap: break-word; 
     font-family: 'Krub';
     font-weight: normal;
     font-size: 13px;
@@ -741,15 +809,32 @@ h1 {
 
 .names-container {
     display: flex;
-    gap: 2px; /* Adjust spacing between elements */
-}
+    gap: 2px; }
 
 .birthday-container {
     display: flex;
-    gap: 2px; /* Adjust spacing between elements */
+    gap: 2px;
 }
 
 .gender-container {
     display: flex;
-    gap: 2px; /* Adjust spacing between elements */
+    gap: 2px; 
 }
+
+/* FOOTER */
+.footer-container .aesthetfooter {
+    padding: 20px;
+    font-size: 1rem !important;
+    background-color: #E5E7DD;
+
+}
+
+.footer {
+    position: relative;
+    bottom: -50px; 
+    left: 0;
+    width: 100%;
+    background-color: #E5E7DD;
+    z-index: 999; 
+}
+
