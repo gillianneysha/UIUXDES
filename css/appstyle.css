@@ -207,7 +207,7 @@ header{
   
 .col2 .title{
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: -2%;
       font-size: 30px;
       font-weight: 500;
       position:relative;
@@ -218,7 +218,7 @@ header{
       font-weight: bold;
   }
 .num{
-  margin-left: 2%;
+  margin-left: 10%;
   margin-top: 2%;
       font-size: 30px;
       font-weight: 500;
@@ -252,15 +252,16 @@ header{
 }
   .subcon1, .subcon2{
     flex: 1;
-    margin: 10px;
+    margin: 10px 0;
+    display: flex-start;
   }
-
   .subcon2{
     color: #A52A2A;
-    justify-content: end;
+    justify-content: flex-start;
     font-family: 'Krub';
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
+    margin-right: 20% !important;
   }
 
   .col2 h3{
@@ -270,10 +271,32 @@ header{
   }
 
 
-  
+  .buttons {
+    text-align: right; /* Align buttons to the right */
+  }
+  .buttons button {
+    margin-top: 5%;
+    margin-left: 10px; /* Add space between buttons */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+  }
+  #Edit {
+    background-color: #FFEFD5; /* Set the button color to green */
+    color: #A52A2A;
+  }
+  #Cancel {
+    background-color: #A52A2A; /* Set the button color to green */
+    color: #FFEFD5;
+    margin-right: 3%
+  }
 
-  
- 
- 
-
-
+.catinfo{
+  color: #A52A2A;
+    justify-content: flex-start;
+    font-family: 'Krub';
+    font-size: 18px;
+    margin-left: 3% !important;
+    margin-top: 2%
+}
